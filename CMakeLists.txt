@@ -21,6 +21,7 @@ set(Universe_SRC
 )
 
 # Add rules to generate python binding files
+set(module_name Universe)
 add_custom_command(
   OUTPUT ${Universe_SRC}
   COMMAND ${SHIBOKEN_BINARY} ${GENERATOR_EXTRA_FLAGS}
