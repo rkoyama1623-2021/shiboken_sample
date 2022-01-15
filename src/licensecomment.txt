@@ -1,9 +1,9 @@
 /*
- * This file is part of ${{ProjectName}}
+ * This file is part of shiboken_sample
  *
- * Copyright (C) ${{AuthorName}}.
+ * Copyright (C) Ryo Koyama.
  *
- * Contact: ${{TeamName}} <${{Email}}>
+ * Contact: Ryo Koyama <ryo(dot)koyama[at]outlook(dot)jp>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public License
