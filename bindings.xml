@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<typesystem package="Universe">
+  <primitive-type name="bool"/>
+  <primitive-type name="std::string"/>
+  <object-type name="Icecream">
+    <modify-function signature="clone()">
+      <modify-argument index="0">
+        <define-ownership owner="c++"/>
+      </modify-argument>
+    </modify-function>
+  </object-type>
+  <value-type name="Truck">
+    <modify-function signature="addIcecreamFlavor(Icecream*)">
+      <modify-argument index="1">
+        <define-ownership owner="c++"/>
+      </modify-argument>
+    </modify-function>
+  </value-type>
+</typesystem>
